@@ -1,8 +1,8 @@
 #Basics for Exercise 1
 
-peanut_butter = 2
-jelly = 2	
-bread_slice = 0
+peanut_butter = int(raw_input("How many servings of peanut butter do you have?  "))
+jelly = int(raw_input("How many servings of jelly do you have?  "))
+bread_slice = int(raw_input ("How many slices of bread do you have?  "))
 
 if peanut_butter >= 1 and jelly >= 1 and bread_slice >= 2:
 	print "It's Peanut Butter Jelly Time!"
