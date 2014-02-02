@@ -12,3 +12,6 @@ elif jelly<max(list1) or peanut_butter<max(list1) or bread_serving<max(list1) an
 	print "you need {0} servings of peanut butter".format(max(list1)-peanut_butter)
 	print "you need {0:.1f} servings of bread".format(max(list1)-bread_serving)
 	print "then you will be able to make {0} sandwiches".format(max(list1))
+	
+else:
+	print "you have nothing and cannot make a sandwich"
