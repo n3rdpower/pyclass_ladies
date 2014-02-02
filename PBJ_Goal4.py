@@ -1,3 +1,5 @@
+#this is not the final version
+
 peanut_butter = int(raw_input("How many servings of peanut butter do you have?  "))
 jelly = int(raw_input("How many servings of jelly do you have?  "))
 bread_slice = int(raw_input ("How many slices of bread do you have?  "))
