@@ -26,4 +26,4 @@ for index, PBJ in enumerate(sandwich):
 	print "Making sandwich #{0}".format(index+1)
 	
 if bread <2 or peanut_butter <1 or jelly <1:
-	print "All done; only had enough bread for {0} sandwiches.".format(len(sandwich))
+	print "All done; only had enough bread for {0} sandwiches.".format(len(sandwich)) #Granted, this is lazy code
