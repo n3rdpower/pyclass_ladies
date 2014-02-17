@@ -35,6 +35,7 @@ Parental_Rating =  ['R','G','G','R','PG']
 Bechdel = ['1/3','3/3', '2/3','3/3','1/3']
 IMDB = ['7.5','8.0','8.7','7.9','7.6']
 Genre = ['Comedy', 'Musical','Drama','Action','Western']
+Header = ['Movie','Parental Rating','Bechdel','IMDB Rating','Genre']
 
-for Movies,Rating,Bechdel,IMDB,Genre in zip(Movies,Parental_Rating,Bechdel,IMDB,Genre):
-	print '{0}, {1}, {2}, {3}, {4}'.format(Movies,Rating,Bechdel,IMDB,Genre)
+for Header,Movies,Rating,Bechdel,IMDB,Genre in zip(Header,Movies,Parental_Rating,Bechdel,IMDB,Genre):
+	print '{0}, {1}, {2}, {3}, {4}, {5}'.format(Header,Movies,Rating,Bechdel,IMDB,Genre)
