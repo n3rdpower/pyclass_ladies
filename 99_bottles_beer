@@ -1,5 +1,0 @@
-# Can you make Python print out the song for 99 bottles of beer on the wall?
-
-for beer in reversed(range(1,100)):
-	print '{0} bottles of beer on the wall, {0} bottles of beer ...'.format(beer)
-	print 'If one of those bottles should happen to fall, {0} bottles of beer on the wall'.format(beer-1)
